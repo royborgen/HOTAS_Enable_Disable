@@ -1,6 +1,6 @@
 ## HOTAS_Enable_Disable.ps1
 
-The Thrustmaster Warthog HOTAS device can sometimes prevent Windows from putting the monitors to sleep, resulting in the screens staying active even when idle. To address this issue, I created HOTAS_Enable_Disable, a PowerShell script designed to enable and disable the Thrustmaster HOTAS device as needed.
+The Thrustmaster Warthog HOTAS prevent Windows from putting the monitors to sleep, resulting in the screens staying active even when idle. To address this issue, I created HOTAS_Enable_Disable, a PowerShell script designed to enable and disable the Thrustmaster HOTAS device as needed.
 
 HOTAS_Enable_Disable provides a convenient solution to toggle the status of the Warthog HOTAS device, allowing you to easily enable or disable it based on your requirements. By using the provided scheduled tasks in XML format, you can automate the execution of the script using the Windows Task Scheduler.
 
