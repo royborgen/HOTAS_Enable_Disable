@@ -33,9 +33,13 @@ Please note that the specific behavior and functionality of the scheduled tasks 
 3. Customize the scheduled tasks as needed, adjusting the script file path and any additional settings.
 4. Run the scheduled tasks or execute the HOTAS_Enable_Disable.ps1 script manually when you want to enable or disable the Warthog HOTAS device.
 
-Additionally, you can execute the script by running HOTAS_Enable_Disable with and without parameters. If no parameters are provided, it will check the current status of the devices. If disabled, they will be enabled, and vice versa. The script also accepts arguments 'enable' and 'disable' to explicitly enable or disable the devices.
+If you want to enable the HOTAS, launch an application, wait for the application to close, and then disable the HOTAS again, you can create a separate batch file to achieve this. Please see the file `launch_DCS.bat` included in this repository for an example that uses DCS as an example. You can customize this example batch file to suit your specific application and requirements.
 
-**Note: Ensure that the user running the script or scheduled tasks has administrative privileges to perform the necessary operations.**
+**Note: Administrative privileges are required to execute the script and configure the scheduled tasks. Please ensure that the user running the script has administrative privileges.**
+
+When using the provided batch file `launch_DCS.bat`, make sure to run the batch file as an administrator. Right-click on the `launch_DCS.bat` file and select "Run as administrator" to ensure that it has the necessary permissions to enable and disable the HOTAS device.
+
+**Note: Running the batch file as an administrator is important to ensure the proper execution of the script and the successful enable/disable operations.**
 
 ## Disclaimer
 
